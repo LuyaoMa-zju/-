@@ -14,4 +14,4 @@ GNS3配置之后，DockerDesktop会报错：
 WSL会报错(通过powershell打开wsl)：
 
 
-![image-20211018092941619](image-20211018092941619.png)
+<img src="image-20211018092941619.png" alt="image-20211018092941619" style="zoom:50%;" />
