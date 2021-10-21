@@ -21,3 +21,8 @@ Step3：
 
 
 <img src="image-20211018092941619.png" alt="image-20211018092941619" style="zoom:50%;" />
+
+
+
+wsl可以正常运行，GNS3在bcdedit /set hypervisorlaunchtype off, 重启，关闭虚拟机虚拟化Intel VT-x/EPT 或AMD-I/RVI(V)之后，GNS3能连上虚拟机，但是一直在waiting for 127.0.0.1:3080
+百度贴吧的方法：“被这个问题困扰了很久，差点重装系统了，今天找到了一个解决方法，亲测有效；cmd下执行以下两行命令，然后重启；netstat -anb；netsh winsock reset”
